@@ -11,6 +11,13 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+    <style>
+      .screenshot-grid img { cursor: pointer; transition: opacity 0.2s; }
+      .screenshot-grid img:hover { opacity: 0.8; }
+      .lightbox-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; justify-content: center; align-items: center; cursor: pointer; }
+      .lightbox-overlay.active { display: flex; }
+      .lightbox-overlay img { max-width: 90vw; max-height: 90vh; border-radius: 8px; box-shadow: 0 4px 30px rgba(0,0,0,0.5); }
+    </style>
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
@@ -27,5 +34,16 @@
         <span class="site-footer-credits">© 2026 MidaSoft · <a href="mailto:midasoftapp@gmail.com">midasoftapp@gmail.com</a></span>
       </footer>
     </main>
+    <div class="lightbox-overlay" id="lightbox" onclick="this.classList.remove('active')">
+      <img id="lightbox-img" src="" alt="">
+    </div>
+    <script>
+      document.querySelectorAll('.screenshot-grid img').forEach(function(img) {
+        img.addEventListener('click', function() {
+          document.getElementById('lightbox-img').src = this.src;
+          document.getElementById('lightbox').classList.add('active');
+        });
+      });
+    </script>
   </body>
 </html>
