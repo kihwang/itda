@@ -77,8 +77,6 @@ itda works for any project where schedules and task sequences matter — constru
 
 [Google Play](https://play.google.com/store/apps/details?id=com.midasoft.itda)
 
-App Store — 준비 중 (Coming Soon)
-
 ---
 
 ## Links
