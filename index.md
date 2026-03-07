@@ -66,6 +66,12 @@ itda works for any project where schedules and task sequences matter — constru
 - Create your own custom templates for reuse
 - Start new projects from any template, then freely modify
 
+### Task Dashboard
+- Cross-project overview: see all tasks at a glance
+- 3 tabs: Overdue / Today / Upcoming (±7 days from today)
+- Tap to edit, long press to toggle completion
+- Never miss a deadline across multiple projects
+
 ### Data Backup
 - Full data backup in JSON format
 - Restore anytime — ideal for remote sites without internet
