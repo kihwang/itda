@@ -94,6 +94,6 @@ itda works for any project where schedules and task sequences matter — constru
 
 ## Contact
 
-midasoftapp@gmail.com
+support@midasoft.kr
 
 ---

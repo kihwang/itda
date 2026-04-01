@@ -94,6 +94,6 @@ App Store — 준비 중 (Coming Soon)
 
 ## Contact
 
-midasoftapp@gmail.com
+support@midasoft.kr
 
 ---
