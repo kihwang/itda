@@ -16,6 +16,7 @@ The itda app collects the following information:
 - **Google Account Info**: Email address, display name (when using Google Sign-In)
 - **Apple Account Info**: Email address, display name (when using Apple Sign-In)
 - **App Usage Data**: Project information, task data, settings
+- **AI Feature Input**: Text you enter when using AI project generation (project name, description, key tasks, etc.)
 
 ## 2. How We Use Information
 
@@ -24,6 +25,7 @@ Collected information is used for:
 - **User Identification**: Through Google or Apple Account
 - **Data Synchronization**: Cloud backup and sync via Firestore
 - **Service Delivery**: Project management and schedule creation features
+- **AI Features**: Information you provide for AI project generation is sent to an external AI service (Google Gemini API) solely to generate results. The transmitted data is not separately stored on itda servers after the result is returned.
 
 ## 3. Data Storage
 
@@ -33,7 +35,7 @@ Collected information is used for:
 
 ## 4. Third-Party Sharing
 
-The itda app does not share personal information with third parties.
+The itda app does not share personal information with third parties, except when you explicitly use the AI project generation feature — in which case your input is transmitted to Google Gemini API solely for the purpose of generating results. This transmission occurs only when you actively invoke the feature.
 
 ## 5. Data Security
 
@@ -69,72 +71,3 @@ This policy may be updated in accordance with legal and policy changes. Changes 
 ---
 
 *The itda app prioritizes the protection of user privacy.*
-
----
-
-# 개인정보처리방침 — 잇다(itda)
-
-**최종 수정일:** 2026년 3월 1일
-
----
-
-## 1. 수집하는 개인정보
-
-잇다 앱은 다음 정보를 수집합니다:
-
-- **Google 계정 정보**: 이메일 주소, 표시 이름 (Google 로그인 시)
-- **Apple 계정 정보**: 이메일 주소, 표시 이름 (Apple 로그인 시)
-- **앱 사용 데이터**: 프로젝트 정보, 작업 데이터, 설정 정보
-
-## 2. 정보 사용 목적
-
-수집된 정보는 다음 목적으로 사용됩니다:
-
-- **사용자 식별**: Google 또는 Apple 계정을 통한 개인 식별
-- **데이터 동기화**: 클라우드(Firestore)를 통한 데이터 백업 및 동기화
-- **서비스 제공**: 프로젝트 관리 및 공정표 작성 기능 제공
-
-## 3. 정보 저장 및 보관
-
-- **저장 위치**: Google Firebase (Google Cloud Platform, asia-northeast3 서울)
-- **보관 기간**: 계정 삭제 시까지 또는 사용자 요청 시 즉시 삭제
-- **암호화**: 모든 데이터는 암호화되어 저장됨
-
-## 4. 제3자 제공
-
-잇다 앱은 사용자의 개인정보를 제3자에게 제공하지 않습니다.
-
-## 5. 데이터 보안
-
-- Firebase의 보안 시스템을 통해 데이터 보호
-- 암호화된 통신(HTTPS) 사용
-- 정기적인 보안 업데이트 적용
-
-## 6. 사용자 권리
-
-사용자는 다음 권리를 가집니다:
-
-- **조회**: 저장된 개인정보 확인 요청
-- **수정**: 잘못된 정보 수정 요청
-- **삭제**: 계정 및 모든 데이터 삭제 요청
-
-## 7. 계정 및 데이터 삭제 방법
-
-데이터 삭제를 원하시는 경우:
-
-1. **앱 내에서**: 설정 → 계정 관리에서 계정 삭제
-2. **이메일 요청**: support@midasoft.kr으로 요청
-
-## 8. 연락처
-
-개인정보 보호 관련 문의사항이 있으시면 아래로 연락주세요:
-
-- **이메일**: support@midasoft.kr
-
-## 9. 개인정보처리방침 변경
-
-본 방침은 법령 및 정책 변경에 따라 업데이트될 수 있습니다. 변경사항은 앱 내 공지 또는 웹사이트를 통해 알려드립니다.
-
----
-
-*잇다 앱은 사용자의 개인정보 보호를 최우선으로 합니다.*

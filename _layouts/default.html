@@ -17,12 +17,26 @@
       .lightbox-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 9999; justify-content: center; align-items: center; cursor: pointer; }
       .lightbox-overlay.active { display: flex; }
       .lightbox-overlay img { max-width: 90vw; max-height: 90vh; border-radius: 8px; box-shadow: 0 4px 30px rgba(0,0,0,0.5); }
+      .lang-switch { position: absolute; top: 16px; right: 20px; z-index: 10; }
+      .lang-switch a { color: #fff; background: rgba(255,255,255,0.18); padding: 6px 14px; border-radius: 20px; text-decoration: none; font-size: 14px; font-weight: 600; transition: background 0.2s; }
+      .lang-switch a:hover { background: rgba(255,255,255,0.32); }
+      .page-header { position: relative; }
     </style>
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
+      {% assign first_seg = page.url | remove_first: '/' | split: '/' | first %}
+      <div class="lang-switch">
+        {% if first_seg == 'ko' %}
+          {% assign en_url = page.url | remove_first: '/ko' %}
+          {% if en_url == '' %}{% assign en_url = '/' %}{% endif %}
+          <a href="{{ en_url | relative_url }}" hreflang="en">English</a>
+        {% else %}
+          <a href="{{ '/ko' | append: page.url | relative_url }}" hreflang="ko">한국어</a>
+        {% endif %}
+      </div>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
     </header>
