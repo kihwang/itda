@@ -26,7 +26,7 @@ Collected information is used for:
 - **User Identification**: Through Google or Apple Account
 - **Data Synchronization**: Cloud backup and sync via Firestore
 - **Service Delivery**: Project management and schedule creation features
-- **AI Features**: Information you provide for AI project generation is sent to an external AI service (Google Gemini API) solely to generate results. The transmitted data is not separately stored on itda servers after the result is returned.
+- **AI Features**: Information you provide for AI project generation is sent to an external AI service solely to generate results. The transmitted data is not separately stored on itda servers after the result is returned.
 
 ## 3. Data Storage
 
@@ -36,7 +36,7 @@ Collected information is used for:
 
 ## 4. Third-Party Sharing
 
-The itda app does not share personal information with third parties, except when you explicitly use the AI project generation feature — in which case your input is transmitted to Google Gemini API solely for the purpose of generating results. This transmission occurs only when you actively invoke the feature.
+The itda app does not share personal information with third parties, except when you explicitly use the AI project generation feature — in which case your input is transmitted to an external AI service solely for the purpose of generating results. This transmission occurs only when you actively invoke the feature.
 
 ## 5. Data Security
 
