@@ -66,6 +66,13 @@ itda works for any project where schedules and task sequences matter — constru
 - Create your own custom templates for reuse
 - Start new projects from any template, then freely modify
 
+### AI Project Generation
+- Describe your project in plain language — itda drafts the task breakdown for you
+- Specify duration, start date, and key tasks; AI fills in a ready-to-edit schedule
+- Review, edit, and save as a normal project — full control, nothing locked
+- Free daily quota for everyone; Pro users get much higher limits
+- Requires sign-in and internet connection
+
 ### Task Dashboard
 - Cross-project overview: see all tasks at a glance
 - 3 tabs: Overdue / Today / Upcoming (±7 days from today)
