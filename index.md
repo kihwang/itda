@@ -92,6 +92,30 @@ itda works for any project where schedules and task sequences matter — constru
 
 ---
 
+## Pricing
+
+### Free Plan
+
+- Up to 3 projects
+- 3 AI generations per day
+- Basic Gantt chart & CPM analysis
+
+### Pro Plan (Lifetime) — ₩19,000 (one-time)
+
+Get everything unlimited:
+
+- **Unlimited projects** (no 3-project limit)
+- **30 AI generations per day** (10× the free plan)
+- **Expert Mode** — connect your own API key for full control
+- Full access to Gantt chart & CPM analysis features
+
+> **Note on AI quota (30/day for Pro):**  
+> This limit is based on traffic distribution calculations. With 10,000 estimated downloads and 95% free users requesting 3 times daily (28,500 requests), the remaining budget allocated to 5% Pro users (500 people) is 30/day (15,000 additional requests). Total: ~43,500/day, which requires paid-tier handling.
+
+[Download on Google Play to unlock Pro](https://play.google.com/store/apps/details?id=com.midasoft.itda)
+
+---
+
 ## Links
 
 - [Privacy Policy](privacy-policy)
