@@ -71,6 +71,7 @@ itda works for any project where schedules and task sequences matter — constru
 - Specify duration, start date, and key tasks; AI fills in a ready-to-edit schedule
 - Review, edit, and save as a normal project — full control, nothing locked
 - Free daily quota for everyone; Pro users get much higher limits
+- Pro users can connect their own API key in Expert Mode (Gemini, OpenAI-compatible services, or local Ollama) for unlimited, private generation
 - Requires sign-in and internet connection
 
 ### Task Dashboard
